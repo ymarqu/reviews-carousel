@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reviwer-img{
+    border-radius: 50%;
+    height: 300px;
+    width: 400px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fefefe;
+}
+.review{
+    background-color: #ffff;
+    text-align: center;
+    border: solid 3px none;
+    width: 50%;
+    height: 60%;
+    margin: auto auto;
+    margin-top: 5%;
+    padding: 50px 60px;
+    border-radius: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.title{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: #150050;
+}
+.title > h2{
+    margin-top: 120px;
+    font-size: 4rem;
+}
+#author{
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    margin: 30px 0 0 0;
+    color: #FB2576;
+}
+#job{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    padding: 0 0 30px 0;
+    color: #3F0071;
+
+}
+.info{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-left: 25%;
+    letter-spacing: 1 ;
+
+
+}
+.btn{
+    border: solid 3px #FB2576;
+    background-color: #ffff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+.btn:hover{
+    background-color: #F06292;
+    color: #fff;
+}
+.right, .left{
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+.random{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    font-size: 1.2rem;
+    font-family:'Nunito', sans-serif;
+    border-radius: 15px;
+}
